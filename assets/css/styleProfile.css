@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #fff;
+    
+}
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+.header ul li i{
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.header ul li i:hover{
+    background-color: #555;
+    color: white;
+}

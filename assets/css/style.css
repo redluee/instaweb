@@ -1,0 +1,20 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #001219;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.invisible {
+  display: none;
+}
+
+.left {
+  height: 100vh;
+  margin-left: calc(50px + 10vw);
+  width: 20vw;
+  background: #000000;
+}/*# sourceMappingURL=style.css.map */

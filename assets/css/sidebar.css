@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #001219;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  position: fixed;
+  background: linear-gradient(225deg, #063eb6 20%, #6106b6 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar i {
+  box-sizing: content-box;
+  text-align: center;
+  padding: 15px;
+  color: #001219;
+  width: 40px;
+  transition: 200ms;
+}
+.sidebar i img {
+  width: 40px;
+  filter: drop-shadow(#001219 0 0 2px);
+}
+.sidebar i:hover {
+  padding-left: 30px;
+}
+.sidebar .active {
+  color: #fff;
+}
+.sidebar .bottom {
+  bottom: 0;
+  position: absolute;
+}/*# sourceMappingURL=sidebar.css.map */
