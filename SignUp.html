@@ -24,10 +24,10 @@
     </div>
     <div class="houder">
         <div class="form-houder">
-            <h1>Sign up</h1>
+            <h1 id="title">Sign up</h1>
             <form>
                 <div class="input-groep">
-                    <div class="inputVeld">
+                    <div class="inputVeld" id="nameVeld">
                         <i class="fa-solid fa-user"></i>
                         <input type="text" placeholder="Name">
                     </div>
@@ -43,8 +43,35 @@
                     </div>
                     <p>Forgot password? <a href="#">Click Here</a></p>
                 </div>
+                <div class="buttonVeld">
+                    <button type="button" id="signupButton">Sign Up</button>
+                    <button type="button" id="signinButton" class="disable">Sign In</button>
+                </div>
             </form>
         </div>
     </div>
+
+<script>
+
+let SignupButton = document.getElementById("signupButton");
+let SigninButton = document.getElementById("signinButton");
+let NameVeld = document.getElementById("nameVeld");
+let Title = document.getElementById("title");
+
+signinButton.onclick = function(){
+    NameVeld.style.maxHeight = "0";
+    Title.innerHTML = "Sign In";
+    SignupButton.classList.add("disable");
+    SigninButton.classList.remove("disable");
+}
+signupButton.onclick = function(){
+    NameVeld.style.maxHeight = "60px";
+    Title.innerHTML = "Sign Up";
+    SignupButton.classList.remove("disable");
+    SigninButton.classList.add("disable");
+}
+
+
+</script>
 </body>
 </html> 
