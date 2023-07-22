@@ -14,13 +14,13 @@
 
 <body>
     <div class="sidebar">
-        <i><img onmouseover="srcswitch(this)" onmouseout="srcunswitch(this)" src="assets/imgs/instaweb-lines.png" alt="instaweb logo"></i>
-        <i onmouseover="solid(this)" onmouseout="solid(this)" class="fa-regular fa-compass fa-2x"></i>
-        <i onmouseover="solid(this)" onmouseout="solid(this)" class="fa-regular fa-bookmark fa-2x"></i>
-        <i onmouseover="solid(this)" onmouseout="solid(this)" class="fa-regular fa-heart fa-2x"></i>
-        <i onmouseover="solid(this)" onmouseout="solid(this)" class="fa-regular fa-envelope fa-2x"></i>
-        <i onmouseover="solid(this)" onmouseout="solid(this)" class="fa-regular fa-user fa-2x"></i>
-        <i class="fa-solid fa-cog fa-2x bottom"></i>
+        <a href=""><i><img onmouseover="srcswitch(this)" onmouseout="srcunswitch(this)" src="assets/imgs/instaweb-lines.png" alt="instaweb logo"></i></a>
+        <a href=""><i onmouseover="solid(this)" onmouseout="solid(this)" class="fa-regular fa-compass fa-2x"></i></a>
+        <a href=""><i onmouseover="solid(this)" onmouseout="solid(this)" class="fa-regular fa-bookmark fa-2x"></i></a>
+        <a href=""><i onmouseover="solid(this)" onmouseout="solid(this)" class="fa-regular fa-heart fa-2x"></i></a>
+        <a href=""><i onmouseover="solid(this)" onmouseout="solid(this)" class="fa-regular fa-envelope fa-2x"></i></a>
+        <a href="profilepage.html"><i onmouseover="solid(this)" onmouseout="solid(this)" class="fa-regular fa-user fa-2x"></i></a>
+        <a href="signup.html" class="bottom"><i class="fa-solid fa-cog fa-2x"></i></a>
     </div>
     <div class="infotitles">
         <p class="invisible home">Home</p>
